@@ -37,7 +37,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    implementation project(':RobotLibrary')
+    implementation project(':Logger')
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation('org.ejml:ejml-simple:0.39') {
         exclude group: 'org.ejml', module: 'ejml-all'
